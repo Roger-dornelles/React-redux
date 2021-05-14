@@ -9,6 +9,7 @@ const Signin = ()=>{
 
     const handleSubmit = (event)=>{
         event.preventDefault(); 
+
         dispatch({
             type:"USER_NAME",
             payload:{name:name}
@@ -20,12 +21,12 @@ const Signin = ()=>{
         <SigninArea>
             <h3>Login</h3>
             <h4>Bem Vindo {newName}</h4>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label>
                     Nome:
                     <input type="text" value={name} onChange={e=>setName(e.target.value)} placeholder="Digite seu nome" />
                 </label>
-                <button onSubmit={handleSubmit}>ENVIAR</button>
+                <button>ENVIAR</button>
             </form>
         </SigninArea>
     )
