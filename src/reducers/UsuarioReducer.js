@@ -1,6 +1,6 @@
 /* eslint-disable no-unreachable */
 const initialState = {
-    name:'Teste'
+    name:'Visitante'
 };
 
 const UsuarioReducer = (state = initialState, action) =>{
