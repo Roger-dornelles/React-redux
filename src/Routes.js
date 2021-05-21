@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Signin from './pages/Signin';
+import Signup from './pages/SIgnup';
 
 const Routes = ()=>{
 
@@ -17,6 +18,9 @@ const Routes = ()=>{
             </Route>
             <Route exact path="/Signin">
                 <Signin />
+            </Route>
+            <Route path="/Signup">
+                <Signup />
             </Route>
 
         </Switch>

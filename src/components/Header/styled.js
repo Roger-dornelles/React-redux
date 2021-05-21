@@ -9,6 +9,7 @@ export const HeaderArea = styled.div`
 
     a{
         text-decoration:none;
+        color:black;
     }
 
     .logo{
@@ -22,10 +23,14 @@ export const HeaderArea = styled.div`
             display:flex;
             justify-content:space-between;
 
+            li{
+                margin-right:15px;
+                cursor:pointer;
+            }
 
             a{
-                margin-left:17px;
-                margin-right:15px;
+                margin-left:5px;
+                margin-right:7px;
 
                 &:hover{
                     color:red;

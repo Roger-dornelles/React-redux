@@ -1,13 +1,23 @@
 /* eslint-disable no-unreachable */
 const initialState = {
-    name:'Teste'
+    email:'',
+    password:'',
+    logged:false
 };
 
 const UsuarioReducer = (state = initialState, action) =>{
 
     switch(action.type){
-        case "USER_NAME":
-            return { ...state, name:action.payload.name };
+        case "GET_EMAIL":
+            return { ...state, email:action.payload.email };
+        break;
+
+        case "GET_PASSWORD":
+            return { ...state, password:action.payload.password};
+        break;
+        
+        case "SET_LOGGED":
+            return { ...state, logged: action.payload.logged };
         break;
 
         default:
