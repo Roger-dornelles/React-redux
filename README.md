@@ -1,3 +1,9 @@
+Estudo sobre REACT-REDUX
+Este projeto visa o estudo de como armazenar alguns dados no localstorage para ter acesso sem precisar fazer muitas requisições ao servidor.
+os dados salvos no localstorage deste projeto de estudo so estão servindo de base de como utilizar o redux junto ao react.js.
+
+NÃO É A MELHOR FORMA DE SALVAR OS DADOS MAS ESTA SERVINDO DE BASE PARA ESTUDOS...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
