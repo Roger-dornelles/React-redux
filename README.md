@@ -4,6 +4,12 @@ os dados salvos no localstorage deste projeto de estudo so estão servindo de ba
 
 NÃO É A MELHOR FORMA DE SALVAR OS DADOS MAS ESTA SERVINDO DE BASE PARA ESTUDOS...
 
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
