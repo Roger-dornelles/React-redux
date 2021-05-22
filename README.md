@@ -1,4 +1,4 @@
-Estudo sobre REACT-REDUX
+Estudo sobre REACT-REDUX.
 Este projeto visa o estudo de como armazenar alguns dados no localstorage para ter acesso sem precisar fazer muitas requisições ao servidor.
 os dados salvos no localstorage deste projeto de estudo so estão servindo de base de como utilizar o redux junto ao react.js.
 
